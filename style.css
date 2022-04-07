@@ -1,0 +1,224 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:#73787e;
+    background-color: #f9f8f6;
+    margin: 0; padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header Part */
+.header{
+    width: 100%;
+    height: 420px;
+    background-color: #e3e5e5;
+
+}
+#logo{
+    float: left;
+    width: 20%;
+}
+#logo img{
+    margin-top: 20px;
+    width: 50%;
+}
+#navbar{
+    float: left;
+    width: 75%;
+    margin-top: 25px;
+    list-style-type: none;
+}
+#navbar li{
+    display: inline;
+    margin: 0px 5px;
+}
+#navbar li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #029fdd;
+    text-align:center;
+    padding: 12px 25px;
+    text-transform: uppercase;
+}
+#navbar li:first-child a{
+    background-color: #0195da;
+    color: #e3e5e4;
+}
+#navbar li:last-child a{
+    border: 1px solid #0195da;
+    margin-left: 20%;
+}
+#navbar li a:hover{
+    background-color: #029fdd;
+    color: #e3e5e4;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+}
+#banner h1{
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    color: #e3e5e3;
+    font-size: 250%;
+}
+#banner img{
+    max-width: 100%;
+}
+/* End of Header Part */
+/* Page Content */
+.page{
+    height: 850px;
+    padding-left: 20px;
+    background-color: #fff; 
+}
+.maininfo{
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 70px;
+    text-align:justify ;
+}
+.title{
+    color:#03a9f6;
+}
+
+#content{
+    float: right;
+    width: 69%;
+    height: 700px;
+    padding-top: 0px;
+}
+#projects{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#projects h3{
+    padding-top: 3px;
+    text-align: left;
+}
+.pitem{
+    float: left;
+    width: 32%;
+    background-color:#fff ;
+    border-radius: 10px;
+    margin-right: 1%;
+    padding-bottom: 10px;
+}
+.pitem img{
+    width: 90%;
+}
+.pitem h4{
+    width: 85%;
+    margin: 20px auto;
+    text-align: left;
+}
+.pitem p{
+    text-align: justify;
+    width: 90%;
+    margin: 10px auto;
+}
+.pitem a{
+    float: right;
+    margin-right: 10px;
+    color: #159ddd;
+}
+.pitem a:hover{
+    text-decoration: overline;
+}
+#members{
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 98%;
+    empty-cells: show;
+    border-collapse: separate;
+    border-spacing: 1px 2px;
+}
+#members td,#members th{
+    border: 1px solid #8f8e8e;
+    padding: 5px 8px 4px;
+}
+#members th{
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    background-color: #159ddd;
+    color: #ffffff;
+}
+#members tr.alt td{
+    background-color: #e3e5e5;
+}
+
+/* End of Page Content */
+/* Page Sidebar */
+#sidebar{
+    float:left;
+    width: 27%;
+    height: 750px;
+
+}
+.box{
+    width: 95%;
+    height: auto;
+    background-color: #f7f9fa;
+    border-radius: 15px;
+    margin: 10px 15px;
+    padding: 15px 10px;
+}
+#login legend{
+    color: #06a9f6;
+    text-align: left;
+    width: 90%;
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#login input[type="email"],input[type="password"],input[type="submit"]{
+    width: 88%;
+    height: 35px;
+    border-radius: 1px;
+    border: 1px solid #e5e5e5;
+    margin:10px 0px;
+}
+#login label{
+    height: 35px;
+    width: 88px;
+    text-align: left;
+}
+#login input[type="submit"]{
+    width: 50%;
+    margin-top: 10px;
+    color: #06a9f6;
+    border-radius: 30px;
+    border: 1px solid #06a9f6;
+    padding-top: 0px;
+}
+#login input[type="submit"]:hover{
+    background-color: #06a9f6;
+    color: #e3e5e3;
+}
+#probit{
+    text-decoration: none;
+    color: #0195da;
+}
+#probit:hover{
+    color: red;
+}
+
+/* End of Content */
+
+.footer{
+    background-color: #0195da;
+    height: 70px;
+    width: 100%;
+    margin-top: 100px;
+}
+.footer p{
+    color: #fff;
+    margin-left: 40%;
+    padding-top: 30px;
+}
